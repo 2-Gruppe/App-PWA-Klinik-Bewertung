@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/App-PWA-Klinik-Bewertung/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/App-PWA-Klinik-Bewertung/static/js/main.005772c3.chunk.js",
-    "main.js.map": "/App-PWA-Klinik-Bewertung/static/js/main.005772c3.chunk.js.map",
-    "runtime-main.js": "/App-PWA-Klinik-Bewertung/static/js/runtime-main.14fd0d3f.js",
-    "runtime-main.js.map": "/App-PWA-Klinik-Bewertung/static/js/runtime-main.14fd0d3f.js.map",
-    "static/js/2.35f2b9b5.chunk.js": "/App-PWA-Klinik-Bewertung/static/js/2.35f2b9b5.chunk.js",
-    "static/js/2.35f2b9b5.chunk.js.map": "/App-PWA-Klinik-Bewertung/static/js/2.35f2b9b5.chunk.js.map",
-    "static/js/3.7a8077ae.chunk.js": "/App-PWA-Klinik-Bewertung/static/js/3.7a8077ae.chunk.js",
-    "static/js/3.7a8077ae.chunk.js.map": "/App-PWA-Klinik-Bewertung/static/js/3.7a8077ae.chunk.js.map",
+    "main.css": "/App-PWA-Klinik-Bewertung/static/css/main.01f9eb98.chunk.css",
+    "main.js": "/App-PWA-Klinik-Bewertung/static/js/main.9fc715e8.chunk.js",
+    "main.js.map": "/App-PWA-Klinik-Bewertung/static/js/main.9fc715e8.chunk.js.map",
+    "runtime-main.js": "/App-PWA-Klinik-Bewertung/static/js/runtime-main.e9994bcc.js",
+    "runtime-main.js.map": "/App-PWA-Klinik-Bewertung/static/js/runtime-main.e9994bcc.js.map",
+    "static/css/2.15a7a700.chunk.css": "/App-PWA-Klinik-Bewertung/static/css/2.15a7a700.chunk.css",
+    "static/js/2.694bc6c5.chunk.js": "/App-PWA-Klinik-Bewertung/static/js/2.694bc6c5.chunk.js",
+    "static/js/2.694bc6c5.chunk.js.map": "/App-PWA-Klinik-Bewertung/static/js/2.694bc6c5.chunk.js.map",
+    "static/js/3.c01117d9.chunk.js": "/App-PWA-Klinik-Bewertung/static/js/3.c01117d9.chunk.js",
+    "static/js/3.c01117d9.chunk.js.map": "/App-PWA-Klinik-Bewertung/static/js/3.c01117d9.chunk.js.map",
     "index.html": "/App-PWA-Klinik-Bewertung/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/App-PWA-Klinik-Bewertung/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.35f2b9b5.chunk.js.LICENSE.txt": "/App-PWA-Klinik-Bewertung/static/js/2.35f2b9b5.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/App-PWA-Klinik-Bewertung/static/media/logo.6ce24c58.svg"
+    "static/css/2.15a7a700.chunk.css.map": "/App-PWA-Klinik-Bewertung/static/css/2.15a7a700.chunk.css.map",
+    "static/css/main.01f9eb98.chunk.css.map": "/App-PWA-Klinik-Bewertung/static/css/main.01f9eb98.chunk.css.map",
+    "static/js/2.694bc6c5.chunk.js.LICENSE.txt": "/App-PWA-Klinik-Bewertung/static/js/2.694bc6c5.chunk.js.LICENSE.txt",
+    "static/media/KlinikDe_Gesamt.70617d9b.png": "/App-PWA-Klinik-Bewertung/static/media/KlinikDe_Gesamt.70617d9b.png",
+    "static/media/KlinikDe_Polarity.eb0108cc.png": "/App-PWA-Klinik-Bewertung/static/media/KlinikDe_Polarity.eb0108cc.png",
+    "static/media/Klinik_Polarity.e34627b5.png": "/App-PWA-Klinik-Bewertung/static/media/Klinik_Polarity.e34627b5.png",
+    "static/media/Klinik_Sterne.79fe2a41.png": "/App-PWA-Klinik-Bewertung/static/media/Klinik_Sterne.79fe2a41.png",
+    "static/media/jumbotron_image.c900ad4e.png": "/App-PWA-Klinik-Bewertung/static/media/jumbotron_image.c900ad4e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.14fd0d3f.js",
-    "static/js/2.35f2b9b5.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.005772c3.chunk.js"
+    "static/js/runtime-main.e9994bcc.js",
+    "static/css/2.15a7a700.chunk.css",
+    "static/js/2.694bc6c5.chunk.js",
+    "static/css/main.01f9eb98.chunk.css",
+    "static/js/main.9fc715e8.chunk.js"
   ]
 }
