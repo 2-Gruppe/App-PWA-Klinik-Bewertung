@@ -1,4 +1,4 @@
-## click to see website --> https://2-gruppe.github.io/App-PWA-Klinik-Bewertung/
+## click to see the Application --> https://2-gruppe.github.io/App-PWA-Klinik-Bewertung/
 
 ### Getting Started with Create React App
 
