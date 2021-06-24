@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/main.01f9eb98.chunk.css",
-    "main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.8085b20b.chunk.js",
-    "main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.8085b20b.chunk.js.map",
-    "runtime-main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.428cd6b9.js",
-    "runtime-main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.428cd6b9.js.map",
+    "main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.c0a067a0.chunk.js",
+    "main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.c0a067a0.chunk.js.map",
+    "runtime-main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.c4c5cf5f.js",
+    "runtime-main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.c4c5cf5f.js.map",
     "static/css/2.15a7a700.chunk.css": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/2.15a7a700.chunk.css",
-    "static/js/2.b3a69e0f.chunk.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.b3a69e0f.chunk.js",
-    "static/js/2.b3a69e0f.chunk.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.b3a69e0f.chunk.js.map",
-    "static/js/3.5358c4e2.chunk.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/3.5358c4e2.chunk.js",
-    "static/js/3.5358c4e2.chunk.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/3.5358c4e2.chunk.js.map",
+    "static/js/2.918174d6.chunk.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.918174d6.chunk.js",
+    "static/js/2.918174d6.chunk.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.918174d6.chunk.js.map",
+    "static/js/3.7c6060e9.chunk.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/3.7c6060e9.chunk.js",
+    "static/js/3.7c6060e9.chunk.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/3.7c6060e9.chunk.js.map",
     "index.html": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/index.html",
     "static/css/2.15a7a700.chunk.css.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/2.15a7a700.chunk.css.map",
     "static/css/main.01f9eb98.chunk.css.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/main.01f9eb98.chunk.css.map",
-    "static/js/2.b3a69e0f.chunk.js.LICENSE.txt": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.b3a69e0f.chunk.js.LICENSE.txt",
-    "static/media/jumbotron_image.c900ad4e.png": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/media/jumbotron_image.c900ad4e.png"
+    "static/js/2.918174d6.chunk.js.LICENSE.txt": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/2.918174d6.chunk.js.LICENSE.txt",
+    "static/media/jumbotron_image.f63da880.png": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/media/jumbotron_image.f63da880.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.428cd6b9.js",
+    "static/js/runtime-main.c4c5cf5f.js",
     "static/css/2.15a7a700.chunk.css",
-    "static/js/2.b3a69e0f.chunk.js",
+    "static/js/2.918174d6.chunk.js",
     "static/css/main.01f9eb98.chunk.css",
-    "static/js/main.8085b20b.chunk.js"
+    "static/js/main.c0a067a0.chunk.js"
   ]
 }
