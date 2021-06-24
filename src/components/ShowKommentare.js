@@ -11,7 +11,7 @@ import PaginationComponent from './PaginationComponent'
 import { Row, Col } from 'reactstrap';
 import { GoogleMapsYearlyPosNeg } from '../Data/Lists'
 import { KlinikDeYearlyPosNeg } from '../Data/Lists'
-import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle, Progress, Alert } from 'reactstrap';
+import { Container, Card, CardText, CardBody, CardTitle, CardSubtitle, Progress, Alert, Spinner } from 'reactstrap';
 import ChartYearly_Google from './ChartYearly_Google'
 import ChartYearly_KlinikDe from './ChartYearly_KlinikDe'
 import ChartKlinikenDePolarity from './ChartKlinikenDePolarity'
@@ -130,35 +130,27 @@ const ShowKommentare = ({ Dataset, pagesCount, pageSize, currentPage, handlePage
 
     ////// Kommentare Cards
     const rezensionen = Dataset.map(komment =>
-        <Col xs="12" key={komment.index} >
-            <Card className="border-light">
+        <Col xs="12" key={komment.index}>
+            <Card className="border-light" >
                 <CardBody>
                     <CardTitle tag="h5">Rezension Nr.: {komment.index + 1} </CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">{komment.name},  {komment.datum ? komment.datum : komment.year}, {komment.fachbereich && komment.fachbereich}</CardSubtitle>
                 </CardBody>
                 <CardBody>
                     <CardText style={{ height: "180px", overflowY: "scroll" }}> {komment.titel && <p>{komment.titel} </p>}{komment.komment}</CardText>
-                    <Row>
-                        <Col>
-                            <p>TextBlob: {komment.positive ? "Positive" : "Negative"}</p>
-                            <p>polarity: {komment.polarity}</p>
-                            <p>Group: {komment.group + 1}</p>
-                            <p>sterne: {komment.sterne}</p>
-                            <p>likes: {komment.likes}</p>
-                            <p>source: {komment.source}</p>
-                        </Col>
-                        <Col>
-                            <p>gesamt: {komment.gesamt}</p>
-                            <p>qualität: {komment.qualität}</p>
-                            <p>behandlung: {komment.behandlung}</p>
-                            <p>verwaltung: {komment.verwaltung}</p>
-                            <p>ausstattung: {komment.ausstattung}</p>
-
-
-                        </Col>
-                    </Row>
-
-
+                    <p className={komment.positive ? "text-success" : "text-danger"}>TextBlob: {komment.positive ? "Positive ✅  " : "Negative ❌  "} ({komment.polarity.toFixed(2)})</p>
+                    {komment.source === "googleMaps" &&
+                        <>
+                            <p>Nutzer Bewertung: {komment.sterne == 1 ? " ⭐ " : komment.sterne == 2 ? "⭐⭐" : komment.sterne == 3 ? "⭐⭐⭐" : komment.sterne == 4 ? "⭐⭐⭐⭐" : "⭐⭐⭐⭐⭐"} </p>
+                            <p>Likes : {" ", komment.likes}</p>
+                        </>
+                    }
+                    {komment.source === "klinikDe" &&
+                        <>
+                            <p>Nutzer Bewertung: {komment.gesamt === 100 ? "sehr zufrieden 😃 " : komment.gesamt === 67 ? "zufrieden 🙂" : komment.gesamt === 33 ? "weniger zufriden 😏" : "unzufrieden 😡"}</p>
+                        </>
+                    }
+                    <p>Data Source: {komment.source}</p>
                 </CardBody>
             </Card>
         </Col>
