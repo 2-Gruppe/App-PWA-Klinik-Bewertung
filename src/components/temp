@@ -1,0 +1,89 @@
+import React, { PureComponent } from 'react';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
+import { KlinikNames } from '../Data/Lists'
+
+
+
+const CustomTooltip = ({ active, payload, label }) => {
+    if (active && payload && payload.length) {
+        return (
+            <div className="custom-tooltip">
+
+                <p className="label">{`Negative: ${payload[1].value}`}</p>
+                <p className="label">{`Positive : ${payload[0].value}`}</p>
+
+            </div>
+        );
+    }
+
+    return null;
+};
+
+export default class Example extends PureComponent {
+    static demoUrl = 'https://codesandbox.io/s/simple-area-chart-4ujxw';
+
+    render() {
+
+        const klinikDeData = [...this.props.data].filter(e => e.source === "klinikDe")
+
+        let datafordiagram = []
+
+        for (let i of KlinikNames) {
+
+            let einKlinik = {
+                name: i,
+                PolarityMean: 0,
+            }
+
+
+            let j = 0
+            klinikDeData.map(r => {
+                if (r.name === i) {
+                    einKlinik.PolarityMean = einKlinik.PolarityMean + r.polarity
+                    j++
+                }
+                return r
+            })
+
+            einKlinik.PolarityMean = einKlinik.PolarityMean / j
+            datafordiagram.push(einKlinik)
+        }
+
+
+        datafordiagram.sort((a, b) => (a.PolarityMean > b.PolarityMean) ? 1 : -1)
+
+
+        let weit = window.screen.width - 30;
+        let hoch = 350
+        if (window.screen.width > 900) {
+            hoch = 600;
+            weit = (weit - 30) / 2
+        }
+
+        return (
+
+            <AreaChart
+                width={weit}
+                height={hoch}
+                data={datafordiagram}
+                margin={{
+                    top: 10,
+                    right: 30,
+                    left: 0,
+                    bottom: 0,
+                }}
+            >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip content={<CustomTooltip />} />
+                <Area type="monotone" dataKey="KlinikDePositive" stackId="a" stroke="#8884d8" fill="#189AB4" />
+                <Area type="monotone" dataKey="KlinikDeNegative" stackId="a" stroke="#8884d8" fill="#75E6DA" />
+
+            </AreaChart>
+
+        );
+    }
+}
+
+

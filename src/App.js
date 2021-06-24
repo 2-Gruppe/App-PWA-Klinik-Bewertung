@@ -1,8 +1,9 @@
 import './App.css';
-import { Container } from 'reactstrap';
 import HeaderComponent from './components/HeaderComponent'
-import JumbotronComponent from './components/JumbotronComponent'
+//import SentimentAnalyzer from './components/SentimentAnalyzer'
 import Kommentare from './components/Kommentare'
+import { Container } from 'reactstrap';
+import JumbotronComponent from './components/JumbotronComponent'
 import FooterComponent from './components/FooterComponent'
 
 function App() {
