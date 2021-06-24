@@ -285,7 +285,7 @@ const ShowKommentare = ({ Dataset, pagesCount, pageSize, currentPage, handlePage
                 </Col>
             </Row>
 
-            {(source !== "googleMaps") &&
+            {(source === "klinikDe") &&
                 <Row className="pt-2 pb-2"> {/* KlinikDe: Klinik by Klinik images : polarity versus nutzer bewertung */}
                     <Col xs="12" lg="6">
                         <Card className="border-light">
@@ -307,7 +307,7 @@ const ShowKommentare = ({ Dataset, pagesCount, pageSize, currentPage, handlePage
                     </Col>
                 </Row>}
 
-            {(source !== "klinikDe") &&
+            {(source === "googleMaps") &&
                 <Row className="pt-2 pb-2 bg-light">  {/* GoogleMaos:  Klinik by Klinik images- polarity versus nutzer bewertung */}
                     <Col xs="12" lg="6">
                         <Card className="border-light">
@@ -329,7 +329,7 @@ const ShowKommentare = ({ Dataset, pagesCount, pageSize, currentPage, handlePage
                     </Col>
                 </Row>}
 
-            {(source !== "googleMaps") &&
+            {(source === "klinikDe") &&
                 <Row className="pt-2 pb-2"> {/* KlinikDe: Klinik by Klinik images : polarity versus nutzer bewertung */}
                     <Col xs="12" lg="6">
                         <Card className="border-light">
