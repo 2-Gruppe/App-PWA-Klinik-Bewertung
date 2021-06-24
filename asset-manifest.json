@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/main.01f9eb98.chunk.css",
-    "main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.ea53fe0a.chunk.js",
-    "main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.ea53fe0a.chunk.js.map",
+    "main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.8085b20b.chunk.js",
+    "main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/main.8085b20b.chunk.js.map",
     "runtime-main.js": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.428cd6b9.js",
     "runtime-main.js.map": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/js/runtime-main.428cd6b9.js.map",
     "static/css/2.15a7a700.chunk.css": "/Web-App-PWA-Klinik-Bewertung-for-Qualitymanager/static/css/2.15a7a700.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.15a7a700.chunk.css",
     "static/js/2.b3a69e0f.chunk.js",
     "static/css/main.01f9eb98.chunk.css",
-    "static/js/main.ea53fe0a.chunk.js"
+    "static/js/main.8085b20b.chunk.js"
   ]
 }
