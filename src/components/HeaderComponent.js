@@ -25,7 +25,7 @@ const HeaderComponent = (props) => {
             <Navbar color="light" light >
 
 
-                <NavbarBrand className="mr-auto" expand="lg" dark >
+                <NavbarBrand className="mr-auto" expand="md" dark >
                     <Media object src={logo} style={{ height: "40px" }} />&nbsp;
                     <Media object src={logo1} style={{ height: "30px" }} />
                 </NavbarBrand>
